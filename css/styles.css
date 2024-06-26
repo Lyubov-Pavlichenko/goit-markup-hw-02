@@ -63,13 +63,13 @@ a {
 .post-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
-.button {
+.cursor {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -77,6 +77,12 @@ a {
     color: #fff;
     background-color: #4d5ae5;
 }
+
+.cursor:hover,
+.cursor:focus {
+    background-color: #404BBF;
+}
+
 
 .work {
     background-color: #fff;
@@ -105,7 +111,7 @@ a {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -136,7 +142,7 @@ background-color: #fff;
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
